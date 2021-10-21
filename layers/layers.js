@@ -16,7 +16,7 @@ var wms_layers = [];
         });
 var format_Limite_50pas_globale_1 = new ol.format.GeoJSON();
 var features_Limite_50pas_globale_1 = format_Limite_50pas_globale_1.readFeatures(json_Limite_50pas_globale_1, 
-            {dataProjection: 'EPSG:32620', featureProjection: 'EPSG:32620'});
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:32620'});
 var jsonSource_Limite_50pas_globale_1 = new ol.source.Vector({
     attributions: ' ',
 });
